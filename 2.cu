@@ -122,11 +122,11 @@ void testMatrix(int m, int n, int l)
     double err=diff(c1,c2,m*n);
     printf("err = %g\n", err);       
  
-    printf(" ======== Execution Infomation ========\n");
+    printf(" ======== (Execution Infomation) ========\n");
     printf(" Excuetion Time on GPU: %3.20f s\n",elapsedTime/1000);
     printf(" Excuetion Time on CPU: %3.20f s\n",CPU_execution_time);
     printf(" Speed up = %f\n",(CPU_execution_time/(elapsedTime/1000)));
-    printf(" ======================================\n\n");
+    printf(" ========================================\n\n");
  
  
     free(a); 
