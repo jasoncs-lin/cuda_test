@@ -1,0 +1,11 @@
+How to build a cuda code.
+
+1. write cuda code in .cu file.
+2. build it using nvcc
+3. run it.
+
+Example as below.
+
+jason@jason-Aspire-M1935:~/Projects/cuda_test$ nvcc 2.cu 
+jason@jason-Aspire-M1935:~/Projects/cuda_test$ ./a.out 
+
